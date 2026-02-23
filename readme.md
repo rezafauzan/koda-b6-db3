@@ -1,13 +1,19 @@
 # Query Practice
 
-## show movie with publish year > 2000
-![show movie with publish year > 2000](assets/img/1.png)
+## Show Movie With Publish Year 2000
+![Show Movie With Publish Year 2000](assets/img/1.png)
 
-## show actors first name with suffix 's'
-![show actors first name with suffix 's'](assets/img/2.png)
+## Show Actors First Name With Suffix S
+![Show Actors First Name With Suffix S](assets/img/2.png)
 
-## show movies with rating between 5 and 7 and publish year from 2004 to 2006
-![show movies with rating between 5 and 7 and publish year from 2004 to 2006](assets/img/3.png)
+## Show Movies With Rating Between 5 And 7 And Publish Year From 2004 To 2006
+![Show Movies With Rating Between 5 And 7 And Publish Year From 2004 To 2006](assets/img/3.png)
 
-## count movies with rating 6
-![count movies with rating 6](assets/img/4.png)
+## Count Movies With Rating 6
+![Count Movies With Rating 6](assets/img/4.png)
+
+## Join Directors And Genres On Movies Table
+![Join Directors And Genres On Movies Table](assets/img/join1.png)
+
+## Join Movies And Roles On Actres Table
+![Join Movies And Roles On Actres Table](assets/img/join2.png)
