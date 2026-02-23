@@ -1,0 +1,1 @@
+SELECT directors.first_name, COUNT(movies_genres.genre) FROM movies_directors JOIN movies ON movies.id = movies_directors.movie_id JOIN movies_genres ON movies_genres.movie_id = movies.id JOIN directors ON directors.id = movies_directors.director_id GROUP BY directors.first_name LIMIT 40;
