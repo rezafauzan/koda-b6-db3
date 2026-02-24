@@ -3,3 +3,5 @@ SELECT directors.first_name, COUNT(movies_genres.genre) AS total_genres FROM mov
 SELECT actors.first_name, COUNT(roles.role) AS total_roles FROM actors JOIN roles ON roles.actor_id = actors.id GROUP BY actors.first_name HAVING COUNT(roles.role) > 5 LIMIT 100;
 
 SELECT directors.first_name, COUNT(movies_directors.movie_id) total_movies FROM directors JOIN movies_directors ON movies_directors.director_id = directors.id GROUP BY directors.first_name ORDER BY total_movies DESC LIMIT 1;
+
+SELECT movies.year, COUNT(movies.name) total_movies FROM movies GROUP BY movies.year ORDER BY total_movies DESC LIMIT 1;
